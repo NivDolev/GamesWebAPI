@@ -234,11 +234,14 @@
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\Promise\WebApiClient.js" />
+    <Content Include="Scripts\Promise\WindowApi.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\RXJS\Scripts.js" />
     <Content Include="Scripts\XML\Scripts.js" />
     <Content Include="Views\Page\Ajax.html" />
+    <Content Include="Views\Page\Promise.html" />
     <Content Include="Views\Page\Rxjs.html" />
     <Content Include="Views\Page\Xml.html" />
     <Content Include="Web.config">
@@ -261,7 +264,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\AJAX\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

@@ -23,5 +23,10 @@ namespace Games.Controllers
         {
             return new FilePathResult("~/Views/page/rxjs.html", "text/html");
         }
+
+        public ActionResult Promise()
+        {
+            return new FilePathResult("~/Views/page/promise.html", "text/html");
+        }
     }
 }
