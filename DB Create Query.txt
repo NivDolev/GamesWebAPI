@@ -1,0 +1,23 @@
+CREATE DATABASE GamesDB;
+go
+
+Use GamesDB
+Go
+
+Create table Games
+(
+     Id int primary key identity(1,1),
+     Game_Name nvarchar(50) NOT NULL,
+	 Player_One nvarchar(50) NOT NULL,
+	 Player_Two nvarchar(50) NOT NULL,
+	 Winner int,
+
+)
+Go
+
+
+Insert into Games values ('Dota 2', 'Niv', 'Erez', 1)
+Insert into Games values ('Dota 2', 'Idan', 'Erez', 0)
+Insert into Games values ('Dota 2', 'Erez', 'Idan', 1)
+Insert into Games values ('Dota 2', 'Niv', 'Erez', 1)
+Insert into Games values ('Dota 2', 'Niv', 'Erez', 0)
