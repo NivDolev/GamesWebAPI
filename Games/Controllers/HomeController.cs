@@ -10,9 +10,7 @@ namespace Games.Controllers
 	{
 		public ActionResult Index()
 		{
-			ViewBag.Title = "Home Page";
-
-			return View();
-		}
+            return new FilePathResult("~/Views/page/index.html", "text/html");
+        }
 	}
 }
