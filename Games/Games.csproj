@@ -206,6 +206,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\AJAX\Scripts.js" />
+    <Content Include="Scripts\Angular\3rdpartylicenses.txt" />
+    <Content Include="Scripts\Angular\main.js" />
+    <Content Include="Scripts\Angular\polyfills.js" />
+    <Content Include="Scripts\Angular\runtime.js" />
+    <Content Include="Scripts\Angular\styles.js" />
+    <Content Include="Scripts\Angular\vendor.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
@@ -230,6 +236,11 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Scripts\Angular\main.js.map" />
+    <Content Include="Scripts\Angular\polyfills.js.map" />
+    <Content Include="Scripts\Angular\runtime.js.map" />
+    <Content Include="Scripts\Angular\styles.js.map" />
+    <Content Include="Scripts\Angular\vendor.js.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -241,6 +252,7 @@
     <Content Include="Scripts\RXJS\Scripts.js" />
     <Content Include="Scripts\XML\Scripts.js" />
     <Content Include="Views\Page\Ajax.html" />
+    <Content Include="Views\Page\index.html" />
     <Content Include="Views\Page\Promise.html" />
     <Content Include="Views\Page\Rxjs.html" />
     <Content Include="Views\Page\Xml.html" />
